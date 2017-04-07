@@ -1,0 +1,19 @@
+{
+    "name": "v0j/proxy-social",
+    "description": "A PHP based HTTP proxy pass through web service access for Social Media",
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Voj Jeturian",
+            "email": "jeturian@gmail.com"
+        }
+    ],
+    "require": {
+        "j7mbo/twitter-api-php": "^1.0",
+        "php-curl-class/php-curl-class": "^7.2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": ["proxy.php"]
+    }
+}
